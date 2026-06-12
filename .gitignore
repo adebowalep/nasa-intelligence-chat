@@ -1,0 +1,75 @@
+# ── Secrets & environment ──────────────────────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ── ChromaDB (rebuild from source documents) ───────────────────────────────
+chroma_db/
+chroma_db_*/
+chromadb/
+*.chroma
+
+# ── Generated evaluation outputs ───────────────────────────────────────────
+evaluation_results.csv
+*.log
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+.Python
+pip-log.txt
+
+# ── Virtual environments ───────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Build artifacts ────────────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+MANIFEST
+
+# ── Testing ────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ── Jupyter ────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Type checking ──────────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyright/
+
+# ── macOS ──────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V5
+.Trashes
+__MACOSX/
+
+# ── IDEs ───────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ── Temporary files ────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.orig
