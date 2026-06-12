@@ -1,0 +1,34 @@
+# NASA Intelligence Chat System — Evaluation Dataset
+# Format: one question per line (lines starting with # are comments)
+# Covers: Apollo 11, Apollo 13, Challenger | Categories: overview, crew,
+#         emergency/problems, disaster, technical, timeline/events
+
+# ── Mission Overview ─────────────────────────────────────────────────────
+What was the primary objective of the Apollo 11 mission?
+What were the main goals of the Apollo 13 mission?
+What was the purpose of the Challenger STS-51L mission?
+
+# ── Crew ─────────────────────────────────────────────────────────────────
+Who were the crew members of the Apollo 11 mission?
+Who were the crew members of the Apollo 13 mission?
+Who were the crew members of the Challenger STS-51L mission?
+
+# ── Emergency and Problem Analysis ──────────────────────────────────────
+What problems did Apollo 13 encounter during its mission?
+How did the Apollo 13 crew and Mission Control respond to the oxygen tank explosion?
+What immediate steps were taken after the Apollo 13 accident was detected?
+
+# ── Disaster Analysis ────────────────────────────────────────────────────
+What caused the Challenger Space Shuttle disaster?
+What were the events leading up to the Challenger explosion?
+What were the consequences of the Challenger disaster for the NASA space program?
+
+# ── Technical Details ────────────────────────────────────────────────────
+What technical systems failed on Apollo 13 and what was the root cause?
+How did the Apollo 11 lunar module perform during the moon landing?
+What technical procedures were used to return the Apollo 13 crew safely to Earth?
+
+# ── Timeline and Events ──────────────────────────────────────────────────
+What were the key timeline events during the Apollo 13 mission?
+Describe the sequence of events during the Apollo 11 moon landing.
+What happened during the final moments before the Challenger launch?
